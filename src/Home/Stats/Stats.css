@@ -1,0 +1,50 @@
+.ss {
+    font: 800 25px system-ui;    
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 50px;
+  }
+
+.items{
+    width: 180px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-left: 10px;
+    padding: 15px;    
+}
+
+.item1 {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.border{
+  height: 60px;
+  position: relative;
+  /* left: 25px; */
+  padding: 10px;
+  border-left: 5px solid rgba( 255, 255, 255, 0.18 );
+  border-color: rgb(13, 121, 216);
+}
+
+@media screen {
+  
+}
+
