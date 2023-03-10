@@ -55,8 +55,7 @@ function Home() {
                   a niche for themselves in the real estate realm.</p>
               <Link to="/abtus"><a href='/abtus' className='abt'>Learn more</a></Link>
             </div>
-          </div>
-        
+          </div>        
       </>
       );
 }
