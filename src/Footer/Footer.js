@@ -12,11 +12,11 @@ function Nav() {
       ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
     </p>
     <div class="icons">
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-google-plus"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
+      {/* <a ><i class="fa fa-facebook"></i></a>
+      <a ><i class="fa fa-twitter"></i></a>
+      <a ><i class="fa fa-linkedin"></i></a>
+      <a ><i class="fa fa-google-plus"></i></a>
+      <a ><i class="fa fa-instagram"></i></a> */}
     </div>
   </div>
   <div class="footer-center col-md-4 col-sm-6">
@@ -30,18 +30,18 @@ function Nav() {
     </div>
     <div>
       <i class="fa fa-envelope"></i>
-      <p><a href="#"> office@company.com</a></p>
+      <p></p>
     </div>
   </div>
   <div class="footer-right col-md-4 col-sm-6">
     <h2> Company<span> logo</span></h2>
     <p class="menu">
-      <a href="#"> Home</a> |
-      <a href="#"> About</a> |
-      <a href="#"> Services</a> |
-      <a href="#"> Portfolio</a> |
-      <a href="#"> News</a> |
-      <a href="#"> Contact</a>
+      {/* <a > Home</a> 
+      <a > About</a> 
+      <a > Services</a> 
+      <a > Portfolio</a> 
+      <a > News</a> 
+      <a > Contact</a> */}
     </p>
     <p class="name"> Company Name &copy; 2016</p>
   </div>
