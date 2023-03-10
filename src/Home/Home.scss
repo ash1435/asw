@@ -21,7 +21,9 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    border-bottom: 5px solid black;
 }
+
 
 .phrase{
     color:aliceblue;
@@ -92,6 +94,48 @@
     color: white;
 }
 
+.cont{
+    width:100%;
+    height: 100vh;
+    border-top: 5px solid black; 
+    border-bottom: 5px solid black;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-top: 20px;
+    background-image: url('map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+}
+
+
+.away{
+    border: 10px solid rgb(0, 0, 0, 0.7);
+    width: 80%;
+    padding: 50px;
+    height: 500px;
+}
+
+.away .abt{
+    color:black;
+}
+.lorem{
+    // width: 50%;
+    padding: 0 200px 0 200px;
+    font-size: 20px;
+    font-weight: 00;
+}
+.cont .phrase{
+    color: black;
+    
+}
 .hover {
     display: inline-block;
     position: relative;

@@ -6,12 +6,7 @@
     align-items: center;
     column-gap: 70px;
     flex-wrap: wrap;
-    background: rgba(0, 0, 0, 0);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
     margin-top: 50px;
   }
 
