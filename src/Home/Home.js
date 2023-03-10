@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.scss'
-import Stats from './Stats/Stats';
 import {Link } from "react-router-dom";
 
 import Typewriter from 'typewriter-effect';
