@@ -1,6 +1,6 @@
 .ss {
     font: 800 25px system-ui;    
-    color: rgb(0, 0, 0);
+    color: rgb(255, 248, 248);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,16 @@
   border-color: rgb(13, 121, 216);
 }
 
-@media screen {
-  
-}
+@media (max-width:1200px){
+  .ss {
+    font: 800 18px system-ui;    
+    position: relative;
+  }
 
+  .items{
+    color: black;
+    width: 180px;
+    height: 0px;
+    padding: 20px;
+  }
+}
