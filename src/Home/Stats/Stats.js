@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react'
 
-import './Stats.css'
+import './Stats.scss'
 
 import {useSpring, animated} from'react-spring'
 

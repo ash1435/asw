@@ -24,7 +24,8 @@ function Home() {
             </h1>
             <Link to="/abtus"><a href='/abtus' className='abt'>Learn more</a></Link>
           </div>
-          <div className='options'>
+          <div className='col'>
+            <div className='options'>
             <h1 className='phrase'>WHAT WE OFFER</h1>
             <div className='buy'>
               <Link to='/buy' className='hover'>ON SALE</Link>
@@ -35,13 +36,14 @@ function Home() {
             <div className='buy'>
             <Link to='buy' className='hover'>PLOTS</Link>
             </div>
+            </div>
           </div>
           <div className='cont'>
             <div className='sts'>
             <Stats/>
             </div>
             <div className='away'>
-              <h1 className='phrase'>WHO WE ARE</h1>
+              <h1 className='phas'>WHO WE ARE</h1>
               <p className='lorem'>Vijay Foundations have been at the forefront of Coimbatore's 
                 real estate sector for over a decade, specializing in Real
                  estate services, as well as providing end-to-end services to our 
