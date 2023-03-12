@@ -2,27 +2,35 @@
 
 .body{
     overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
-    width: 60%;
-    // height: fit-content;
+    width: 1000px;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     background-color: transparent;
     padding:100px 0 100px 0;
-    transform: translateX(40%);
 }
 
 @media only screen and (max-width: 1100px) {
+    
+    .container{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        transform: translateX(3%);
+    }
     .first{
         display: block;
     }
 
-    .sec{
-        transform: translateX(50%);
-    }
+    // .sec{
+    //     transform: translateX(50%);
+    // }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -36,6 +44,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .container{
+        width: 380px;
+    }
     .container{
         display: block;
     }
@@ -56,6 +67,8 @@
     transform: translateY(-20px);
 }
 }
+
+
 
 
 .outer {
