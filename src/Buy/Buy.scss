@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 
-.body{
-    overflow-x: hidden;
+.hel{
+    overflow: hidden;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container{
+.container{ 
     width: 1000px;
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;  
     justify-content: center;
     align-items: center;
     background-color: transparent;
@@ -20,17 +20,13 @@
 @media only screen and (max-width: 1100px) {
     
     .container{
-        width: 100%;
+        width: 300px;
         grid-template-columns: 1fr 1fr;
-        transform: translateX(3%);
     }
     .first{
         display: block;
     }
 
-    // .sec{
-    //     transform: translateX(50%);
-    // }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -45,7 +41,8 @@
 
 @media only screen and (max-width: 600px) {
     .container{
-        width: 380px;
+        width: 370px;
+        transform: translateX(-1%);
     }
     .container{
         display: block;
@@ -67,9 +64,6 @@
     transform: translateY(-20px);
 }
 }
-
-
-
 
 .outer {
     padding: 15px;
