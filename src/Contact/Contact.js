@@ -4,7 +4,7 @@ import './Contact.scss'
 function Contact() {
   return (
     <div>
-          <div class="container">
+          <div class="cunt">
             <div class="contact-box">
             <div class="left"></div>
             <div class="right">

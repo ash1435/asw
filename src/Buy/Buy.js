@@ -5,7 +5,6 @@ function Buy() {
   return (
     <div className="hel">
     <div class="container">
-        
             <div class="outer">
                 <div id="card1" class="card">
                     <div class="bg1 imgbg"></div>
