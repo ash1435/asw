@@ -51,12 +51,12 @@
     font-size: 50px;
     font-weight: 900;
     border-bottom: solid;
-    height: auto;
-    margin-bottom: 50px;
+    // height: auto;
+    margin: -100px 0 50px 0;
 }
 
 .buy{
-    width:50%;
+    width:1000px;
     height: 300px;
     border: 5px solid black; 
     outline: 5px solid black;
@@ -69,7 +69,7 @@
     font-size: 50px;
     font-family: 'Cuprum';
     font-weight: 900;
-    margin-top: 5px;
+    margin-top: 20px;
     background-image: url('mli.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,6 +106,7 @@
 
 .away{
     border: 10px solid rgb(0, 0, 0, 0.7);
+    border-radius: 20px;
     width: 80%;
     padding: 50px;
     height: 500px;
@@ -170,6 +171,7 @@
 	.buy{
         font-size: 20px;
         font-weight: 900;
+        width:500px;
     }
     .lorem{
         font-size: 15px;
@@ -198,6 +200,7 @@
 	.buy{
         font-size: 20px;
         font-weight: 900;
+        width:300px;
     }
     .lorem{
         font-size: 15px;

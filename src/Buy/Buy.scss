@@ -4,6 +4,7 @@
     overflow: hidden;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -18,11 +19,25 @@
     padding:100px 0 100px 0;
 }
 
+.filter{
+    margin-top: 100px;
+    margin-bottom: -50px;
+    justify-self: center;
+    align-items: center;
+    width:1000px;
+    height: 50px;
+    border:solid;    
+}
+
 @media only screen and (max-width: 1100px) {
     
     .container{
         width: 300px;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .filter{
+        width:700px;
     }
     .first{
         display: block;
@@ -44,6 +59,10 @@
     .container{
         width: 370px;
         transform: translateX(-1%);
+    }
+
+    .filter{
+        width:350px;
     }
     .container{
         display: block;

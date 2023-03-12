@@ -1,20 +1,31 @@
 {
-    
-    "card1":{
-        "head" : "Lost in the Beauty of the Ocean",
-        "data" : "There's nothing quite like the feeling of being by the ocean. The sound of the waves crashing against the shore, the salty smell of the sea air, and the vast expanse of the ocean itself can all make us feel small yet connected to something much greater than ourselves."
-    },
-    "card2":{
-        "head" : "Lost in the Beauty of the Ocean",
-        "data" : "There's nothing quite like the feeling of being by the ocean. The sound of the waves crashing against the shore, the salty smell of the sea air, and the vast expanse of the ocean itself can all make us feel small yet connected to something much greater than ourselves."
-    },
-    "card3":{
-        "head" : "Lost in the Beauty of the Ocean",
-        "data" : "There's nothing quite like the feeling of being by the ocean. The sound of the waves crashing against the shore, the salty smell of the sea air, and the vast expanse of the ocean itself can all make us feel small yet connected to something much greater than ourselves."
-    },
-    "card4":{
-        "head" : "Lost in the Beauty of the Ocean",
-        "data" : "There's nothing quite like the feeling of being by the ocean. The sound of the waves crashing against the shore, the salty smell of the sea air, and the vast expanse of the ocean itself can all make us feel small yet connected to something much greater than ourselves."
-    }
+    "data":[
+        {
+            "name": "card1",
+            "back" : "bg1",
+            "head": "Lost in the Beauty of the Ocean",
+            "cont": "There's nothing quite like the feeling of being by the ocean. The sound of the waves crashing against the shore, the salty smell of the sea air, and the vast expanse of the ocean itself can all make us feel small yet connected to something much greater than ourselves."
+        },
+        {
+            "name": "card2",
+            "back" : "bg2",
+            "head": "Find Your Inner Peace in the Mountains",
+            "cont": "There's something about the mountains that just feels like home. The crisp mountain air, the towering peaks, and the peaceful stillness of nature can all make us feel more grounded and connected to the world around us."
+        },
+        {
+            "name": "card3",
+            "back" : "bg3",
+            "head": "Embrace the Serenity of the Desert",
+            "cont": "The desert may seem barren and lifeless at first glance, but it's actually teeming with a unique kind of beauty and life. The vast stretches of sand and rock formations can create stunning landscapes that are unlike anything you've ever seen before."
+        },
+        {
+            "name": "card4",
+            "back" : "bg3",
+            "head": "Lost in the Beauty of the Ocean",
+            "cont": "There's nothing quite like the feeling of being by the ocean. The sound of the waves crashing against the shore, the salty smell of the sea air, and the vast expanse of the ocean itself can all make us feel small yet connected to something much greater than ourselves."
+        }
+    ]
 
 }
+    
+
